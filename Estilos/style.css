@@ -1,0 +1,186 @@
+body{
+    background-color: rgba(255, 254, 217, 0.884);
+    margin: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+p{
+    padding: 20px;
+}
+.encabezado{
+    border-radius: 20px;
+    background: rgb(150, 149, 149);
+}
+.contencabezado{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 4em 4em;
+    grid-gap: 1em;
+}
+.nombre{
+    grid-column: 1/3;
+    justify-self: center;
+    align-self: center;
+    padding-top: 2em; 
+}
+.bancop{
+    text-shadow: 0px 0px 8px rgb(253, 245, 218);
+    font-size: 4em;
+    
+}
+.eslogan{
+    grid-column: 1/3;
+    justify-self: center;
+    align-self: end;
+}
+.imglogo{
+    grid-column: 3/4;
+    grid-row: 1/3;
+    align-self: center;
+    justify-self: center;
+}
+.tamanologo{
+    height: 8em;
+    filter: drop-shadow(0px 0px 10px rgb(253, 245, 218));
+}
+.tamanoimg{
+    height: 6em;
+    padding-top: 2em;
+    position: absolute top;
+}
+.tamanoimg:hover{
+    height: 7em;
+    position: absolute top;
+}
+.menuppal{
+    background: black;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /*cantidad de columnas*/
+    grid-template-rows: 1em 4em; /*cantidad de filas y su altura*/
+    grid-gap: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.menuitem{
+    background-color: rgb(223, 171, 28);
+    border-radius: 3px;
+    height: 4em;
+    text-align: center;
+}
+.item1{
+    grid-column: 1/5;
+}
+.menuitem:hover{
+    border: solid rgb(136, 100, 0);
+    background-color: rgb(248, 184, 9);
+    color: rgb(114, 69, 1);
+}
+.mainppal{
+    display: grid;
+    margin-top: 30px;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 300px 300px;
+    gap: 15px;
+    grid-template-rows: minmax(350px,400px);
+    position: relative;
+}
+.mainitem1{
+    display: grid;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    background: rgb(163, 162, 162);
+}
+.cuenta{
+    position: top;
+    text-align: center;
+    background: black;
+    color: aliceblue;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    height: 4em;
+}
+.formulario{
+    display: grid;
+    margin-left: 1em;
+    justify-self: center;
+}
+.enviar{
+    background-color: rgb(223, 171, 28);
+}
+.enviar:hover{
+    background-color: rgb(248, 184, 9);
+    
+}
+.tituloserv1{
+    position: top;
+    text-align: center;
+    background: black;
+    color: aliceblue;
+    border-top-left-radius: 20px;
+    height: 4em;
+}
+.tituloserv2{
+    position: top;
+    text-align: center;
+    background: black;
+    color: aliceblue;
+    border-top-right-radius: 20px;
+    height: 4em;
+}
+.tituloserv{
+    position: top;
+    text-align: center;
+    background: black;
+    color: aliceblue;
+    height: 4em;
+}
+.mainitem2, .mainitem3{
+    display: grid;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    background: linear-gradient(rgb(247, 247, 247), rgb(146, 146, 146));
+    text-align: center;
+}
+.mainitem5{
+    display: grid;
+    border-bottom-left-radius: 20px;
+    background: linear-gradient(rgb(247, 247, 247), rgb(146, 146, 146));
+    text-align: center;
+}
+.mainitem6{
+    display: grid;
+    border-bottom-right-radius: 20px;
+    background: linear-gradient(rgb(247, 247, 247), rgb(146, 146, 146));
+    text-align: center;
+}
+.mainitem4{
+    display: grid;
+    text-align: center;
+    padding: 20px;
+    grid-template-rows: repeat(8,2em);
+    background-color: black;
+    color: rgb(255, 255, 255);
+}
+.transaccion1,.transaccion2,.transaccion3,.transaccion4,.transaccion5,.transaccion6 {
+    background: rgb(49, 49, 49);
+    border-bottom: solid rgb(73, 73, 73);
+}
+.hovertransaccion:hover{
+    background-color: rgb(223, 171, 28);
+    color: black;
+}
+.transacciones,.tarjetas{
+    color: #e0cc16;
+    align-self: center;
+}
+footer{
+    display: grid;
+    background: black;
+    text-align: center;
+    margin-top: 30px;
+    height: 5em;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    align-self: center;
+}
